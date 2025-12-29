@@ -1,0 +1,11 @@
+n = input("Give a string")
+# n1 = []
+res = ""
+
+for i in n:
+    if i.islower() == True:
+        res = res + i
+    else:
+        res = res + i
+
+print(res)
