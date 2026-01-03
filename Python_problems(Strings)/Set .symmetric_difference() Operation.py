@@ -1,0 +1,8 @@
+e = int(input())
+er = input()
+set_er = set(er.split())
+f = int(input())
+fr = input()
+set_fr = set(fr.split())
+uni = set_er.symmetric_difference(set_fr)
+print(len(uni))
